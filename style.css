@@ -8,9 +8,9 @@ https://www.cssmatic.com/box-shadow
 
 :root {
   --gap-number: 10px;
-  --first-color: #6eceb2;
+  --first-color: #00867c;
   --secundary-color: #0771bd;
-  --red-color: #fd7463;
+  --white-color: #fff;
   --text-color: #333;
   --font-size: 11px;
   --font-family: "Poppins", sans-serif;
@@ -55,12 +55,38 @@ img {
 
 /* Structure */
 body {
-  background: #fff;
+  background: #fff url("./img/bkhero.png") no-repeat center top;
   color: var(--text-color);
   font-size: var(--font-size);
 }
 
+.content-wrap {
+  padding-top: 100px;
+  position: relative;
+}
+
+.content-wrap .cw-misc {
+  width: 130px;
+  background-color: var(--first-color);
+  height: 6px;
+  display: block;
+  top: 94px;
+  position: absolute;
+}
+
+.content-wrap a {
+  text-decoration: underline;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.form-head {
+  background-color: var(--first-color);
+  color: var(--white-color);
+  text-align: center;
+  margin-top: 338px;
+  line-height: 60px;
+}
 /* Responsive */
 @media screen and (orientation: portrait) {
-
 }
