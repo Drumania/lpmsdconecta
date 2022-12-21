@@ -169,6 +169,47 @@ form input[type="submit"] {
   font-weight: bold;
 }
 
+/* footer */
+
+footer {
+  padding-bottom: 50px;
+  font-size: 12px;
+}
+
+footer a {
+  color: var(--first-color);
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li a {
+  padding-right: 30px;
+  line-height: 30px;
+}
+
+footer .text-end img:nth-child(1) {
+  width: 70px;
+}
+
+footer .text-end img:nth-child(3) {
+  width: 90px;
+  margin-top: 20px;
+}
+
 /* Responsive */
 @media screen and (orientation: portrait) {
+  .form-head {
+    background-color: var(--first-color);
+    color: var(--white-color);
+    text-align: center;
+    margin-top: 30px;
+    line-height: 60px;
+  }
 }
